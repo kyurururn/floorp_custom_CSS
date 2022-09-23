@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+@-moz-document url-prefix("about:newtab"), url-prefix("about:home") {
+	body {
+		background-size: cover !important;
+		background-image: url("bg.png") !important;
+	}
+
+	#background{
+		display: none;
+	}
+
+    .logo-and-wordmark .wordmark {
+        display: none !important;
+    }
+    
+    .logo-and-wordmark .logo {
+        display: none !important;
+    }
+	
+	html body.activity-stream div#root div a#unsplash{
+        display: none !important;
+	}
+
+	html body.activity-stream div#root div span button.icon.icon-settings.personalize-button.personalize-animate-enter-done{
+		display: none !important;
+	}
+
+	html body.activity-stream div#root div div#floorp a.releasenote{
+		display: none !important;
+	}
+
+	html body.activity-stream div#root div div#floorp a.releasenote{
+		display: none !important;
+	}
+}
