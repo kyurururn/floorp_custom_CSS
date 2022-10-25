@@ -1,13 +1,9 @@
 @charset "UTF-8";
 
 @-moz-document url-prefix("about:newtab"), url-prefix("about:home") {
-	body {
+	#background {
 		background-size: cover !important;
 		background-image: url("bg.png") !important;
-	}
-
-	#background{
-		display: none;
 	}
 
     .logo-and-wordmark .wordmark {
